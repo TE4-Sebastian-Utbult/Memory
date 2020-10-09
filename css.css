@@ -1,0 +1,67 @@
+
+@import url('https://fonts.google.com/specimen/Sansita+Swashed?selection.family=Sansita+Swashed:wght@600');
+
+button
+{
+    width:100px;
+    height:40px;
+    display:block;
+    background-color:gray;
+    color:white;
+    border: none;
+    outline:none;
+}
+#topbutton{
+    margin: 10px;
+    border: none;
+    background-color: orange;
+}
+#timerframe{
+    margin: 10px;
+    width: 82%;
+    height: 58%;
+    border: none;
+    background-color: orange;
+    text-align: center;
+    color:white;
+}
+#MessageConsole{
+    background-color: orange;
+    color:white;
+    text-align: center;
+    height: 40px;
+    margin: 10px;
+}
+#topofcards{
+    width: 100%;
+    grid-template-columns: 12.5% 12.5% 25% 37.7% 12.5%;
+    display: grid;
+}
+#filling{
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    align-content: normal;
+    display: inline-table;
+}
+#items{
+    margin: 350px;
+    background-color: darkolivegreen;
+    margin-top: 12%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#cards{
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    display: grid;
+}
+#MEMORY{
+    font-family: 'Sansita Swashed', cursive;
+    color: wheat;
+    margin-top: -50px;
+    font-size: 50px;
+    text-shadow: 0px 0px 30px black;
+
+}
